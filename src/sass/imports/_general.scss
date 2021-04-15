@@ -184,15 +184,15 @@ blockquote {
     .accent-green & {
       color: _palette(accent-green);
     }
-  
+
     .accent-blue & {
       color: _palette(accent-blue);
     }
-  
+
     .accent-violet & {
       color: _palette(accent-violet);
     }
-  
+
     .accent-yellow & {
       color: _palette(accent-yellow);
     }
@@ -299,8 +299,18 @@ video {
   max-width: 100%;
 }
 
-.js-reframe {
-  margin: 0 0 1.66667em;
+.post-content,
+.block-content {
+  iframe[src*="vimeo.com"],
+  iframe[src*="youtube.com"] {
+    display: block;
+    margin-bottom: 1.66667em;
+    margin-top: 1.66667em;
+
+    &:first-child {
+        margin-top: 0;
+    }
+  }
 }
 
 // Images
