@@ -1,10 +1,10 @@
 {
-    "title": "Stackbit Exto Theme",
+    "title": "Yorman Eduardo Amaro Carrero",
     "path_prefix": "/",
-    "color_scheme": "light",
+    "color_scheme": "dark",
     "accent_color": "pink",
     "header": {
-        "title": "Exto",
+        "title": "Yorman Amaro",
         "has_nav": true,
         "nav_links": [
             {
