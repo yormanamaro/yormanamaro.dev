@@ -30,6 +30,7 @@
     "webpack": "^5.24.1"
   },
   "devDependencies": {
+    "@netlify/plugin-nextjs": "^4.7.1",
     "prettier": "^2.2.1"
   }
 }
